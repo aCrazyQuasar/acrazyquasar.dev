@@ -1,0 +1,17 @@
+/* Quantico font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Martian Mono font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+}
+p, a, span, li {
+    font-family: 'Martian Mono', monospace;
+}
+h1{font-size: 2.5rem;}
+h2{font-size: 2rem;}
+h3{font-size: 1.75rem;}
+h4{font-size: 1.5rem;}
+h5{font-size: 1.25rem;}
+h6{font-size: 1rem;}
