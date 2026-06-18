@@ -28,7 +28,8 @@ const p5BG = (p) => {
     };
 
     p.draw = () => {
-        p.background(30, 10, 60);
+        p.clear();
+        p.background(30, 10, 60, 50);
 
         const dt = p.deltaTime / 1000;
         const t = p.millis() / 1000;
