@@ -91,6 +91,12 @@ const p5BG = (p) => {
             p.pop();
         }
     };
+    p.windowResized = () => {
+        p.resizeCanvas(
+            container.offsetWidth,
+            container.offsetHeight
+        );
+    }
 };
 
 new p5(p5BG, "p5bg-container");
