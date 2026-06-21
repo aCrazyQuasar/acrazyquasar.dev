@@ -7,7 +7,7 @@
     z-index: -1;
 }
 body{
-    background: url('../blurry-gradient-bg.png');
+    background: url('../../assets/images/blurry-gradient-bg.png');
     background-size: cover;
     background-attachment: fixed;   
     background-position: center;
