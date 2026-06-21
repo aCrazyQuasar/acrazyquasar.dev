@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Platformer - acrazyquasar</title>
+
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="./css/imports.css">    
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- JS Libs -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.13/lib/p5.min.js"></script>
+</head>
+<body>
+
+    <div id="warp-container"></div>
+
+    <main>
+        <div class="text">
+            <h1>AI Platformer</h1>
+            <p>
+                Welcome to the AI Platformer!
+                In this game, you get to design a level, and then watch as a bunch of little 
+                AI agents try to navigate through it. You can see how they learn and adapt over time, 
+                by watching how thier brains evolve and change as they play the game. It's a fun 
+                an interesting way to see how AI can learn and improve, and at the end, you can watch
+                each individual species to see how well they did!
+            </p>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="buttons">
+            <button id="startBtn">Start Game</button>
+            <button id="resetBtn">Reset Game</button>
+        </div>
+    </main>
+    
+    <!-- JS Imports -->
+    <script src="./js/warp.js"></script>
+</body>
+</html>
